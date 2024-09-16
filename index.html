@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maket Miniatur Syennzar - Jasa Pembuatan Miniatur Custom Berkualitas</title>
+    <meta name="description" content="Maket Miniatur Syennzar menyediakan jasa pembuatan miniatur berkualitas tinggi. Temukan portofolio kami, cara pemesanan, dan hubungi kami untuk miniatur impian Anda."/>
+    <meta name="keywords" content="miniatur, produsen miniatur, produsen miniatur depok, miniatur keren, jasa pembuatan miniatur, jasa pembuatan miniatur depok, miniatur depok, custom miniatur, Maket miniatur syennzar"/>
+    <meta name="author" content="Maket Miniatur Syennzar" />
+    <link rel="canonical" href="https://miniatursyennzar.my.id/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://miniatursyennzar.my.id/" />
+    <meta property="og:title" content="Maket Miniatur Syennzar - Jasa Pembuatan Miniatur Custom Berkualitas"/>
+    <meta property="og:description" content="Maket Miniatur Syennzar menyediakan jasa pembuatan miniatur berkualitas tinggi. Temukan portofolio kami, cara pemesanan, dan hubungi kami untuk miniatur impian Anda."/>
+    <meta property="og:image" content="https://miniatursyennzar.my.id/images/logo.jpg"/>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpg" href="/images/logo.jpg" />
+    <link rel="apple-touch-icon" href="/images/logo.jpg" />
+
+    <!-- Tailwind -->
+    <link href="./src/output.css" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+     <link rel="stylesheet" href="\src\input.css">
+     <link rel="stylesheet" href="index.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+
+      .bg-orange { background-color: #EFBA61; }
+      .text-orange { color: #EFBA61; }
+    </style>
+
+    <!-- Structured Data / JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Maket Miniatur Syennzar",
+        "image": "https://miniatursyennzar/images/logo.png",
+        "description": "Maket Miniatur Syennzar menyediakan jasa pembuatan miniatur berkualitas tinggi. Temukan portofolio kami, cara pemesanan, dan hubungi kami untuk miniatur impian Anda.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "jl. Baitul rohim II no 8 Beji timur Depok",
+          "addressLocality": "Beji timur",
+          "addressRegion": "Depok",
+          "postalCode": "16422",
+          "addressCountry": "ID"
+        },
+        "telephone": "081282049540",
+        "url": "https://miniatursyennzar.my.id",
+        "openingHours": "Mo-Sa 08:00-22:00",
+        "priceRange": "Rp.00"
+      }
+    </script>
+  </head>
+  <body class="bg-orange">
+    
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-gray-900 to-gray-700 text-white fixed w-full z-50">
+      <nav class="container mx-auto px-6 py-4 md:px-10">
+        <div class="flex justify-between items-center">
+          <div class="text-2xl bg-gradient-to-r from-yellow-400 to-yellow-200 bg-clip-text text-transparent font-bold">Miniatur Syennzar</div>
+          <!-- Desktop Menu -->
+          <div class="hidden md:flex space-x-4">
+            <a href="/index.html" class="hover:text-yellow-200"
+              >Beranda</a
+            >
+            <a href="/portfolio.html" class="hover:text-yellow-200"
+              >Portofolio</a
+            >
+            <a href="/tentang-kami.html" class="hover:text-yellow-200"
+              >Tentang Kami</a
+            >
+            <a href="/cara-pesan.html" class="hover:text-yellow-200"
+              >Cara Pesan</a
+            >
+            <a href="/kontak.html" class="hover:text-yellow-200"
+              >Kontak</a
+            >
+          </div>
+          <button class="md:hidden focus:outline-none" id="menu-toggle">
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </nav>
+
+      <!-- Mobile Menu -->
+      <div class="md:hidden border-t border-yellow-300">
+        <div id="mobile-menu" class="px-2 pt-2 pb-3 space-y-1 sm:px-3 hidden">
+          <a
+            href="/index.html"
+            class="block px-3 py-2 rounded-md text-base font-medium hover:bg-yellow-700"
+            >Beranda</a
+          >
+          <a
+            href="/portfolio.html"
+            class="block px-3 py-2 rounded-md text-base font-medium hover:bg-yellow-700"
+            >Portofolio</a
+          >
+          <a href="/tentang-kami.html"
+            class="block px-3 py-2 rounded-md text-base font-medium hover:bg-yellow-700">
+            Tentang Kami
+          </a>
+          <a
+            href="/cara-pesan.html"
+            class="block px-3 py-2 rounded-md text-base font-medium hover:bg-yellow-700"
+            >Cara Pesan</a
+          >
+          <a
+            href="/kontak.html"
+            class="block px-3 py-2 rounded-md text-base font-medium hover:bg-yellow-700"
+            >Kontak</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative h-screen flex items-center justify-center">
+      <!-- Background image -->
+      <div class="absolute inset-0 z-0">
+          <img src="/images/hero.jpg" alt="Background Miniatur" class="w-full h-full object-cover">
+          <div class="absolute inset-0 bg-black opacity-40"></div>
+      </div>
+      
+      <!-- Content -->
+      <div class="flex flex-col items-center justify-center text-center mt-16 z-10">
+        <!-- Heading -->
+        <div class="flex justify-center items-center">
+           <img src="/images/logo.jpg" alt="Logo.jpg" class="w-44 h-44 rounded-lg mb-4">
+        </div>
+        <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">Selamat Datang di <span class="bg-gradient-to-r from-yellow-400 to-yellow-100 bg-clip-text text-transparent">Maket Miniatur Syennzar</span></h1>
+        <p class="text-lg md:text-2xl font-semibold text-white mb-6">Temukan produk dan layanan terbaik kami dalam pembuatan miniatur, yang dirancang untuk menghadirkan keajaiban setiap detail.</p>
+        
+        <!-- Call to Action Button -->
+        <a href="/portfolio.html" class="inline-block px-8 py-4 text-lg font-semibold bg-orange hover:bg-black text-white rounded-lg shadow-lg transition-transform transform hover:scale-105 animate__animated animate__fadeIn animate__delay-3s">Lihat Portofolio</a>
+      </div>
+    </section>
+
+    <!-- Kelebihan -->
+    <section class="py-16 px-4 md:px-8">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="londrina-solid-black text-4xl md:text-5xl font-bold text-center mb-12 text-gray-800">
+          Mengapa Memilih <span class="bg-gradient-to-r from-gray-100 to-gray-200 bg-clip-text text-transparent">Maket Miniatur Syennzar</span>?
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Kelebihan 1 -->
+          <div class="bg-yellow-100 rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105">
+            <div class="p-6">
+              <div class="w-16 h-16 flex items-center justify-center mb-4 mx-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+                  <path d="M 0 4 L 0 46 L 50 46 L 50 4 Z M 2 6 L 48 6 L 48 44 L 2 44 Z M 4 8 L 4 30.78125 C 3.972656 30.914063 3.972656 31.054688 4 31.1875 L 4 42 L 46 42 L 46 37.15625 C 46.027344 37.023438 46.027344 36.882813 46 36.75 L 46 8 Z M 6 10 L 44 10 L 44 34.5625 L 34.71875 25.28125 C 34.496094 25.0625 34.183594 24.957031 33.875 25 C 33.652344 25.023438 33.441406 25.125 33.28125 25.28125 L 29.03125 29.53125 L 18.75 18.3125 C 18.519531 18.0625 18.179688 17.941406 17.84375 18 C 17.644531 18.027344 17.460938 18.117188 17.3125 18.25 L 6 28.6875 Z M 35 15 C 33.34375 15 32 16.34375 32 18 C 32 19.65625 33.34375 21 35 21 C 36.65625 21 38 19.65625 38 18 C 38 16.34375 36.65625 15 35 15 Z M 17.9375 20.4375 L 27.59375 30.96875 L 25.28125 33.28125 C 24.882813 33.679688 24.882813 34.320313 25.28125 34.71875 C 25.679688 35.117188 26.320313 35.117188 26.71875 34.71875 L 29.5625 31.84375 C 29.703125 31.757813 29.820313 31.640625 29.90625 31.5 L 34 27.4375 L 44 37.4375 L 44 40 L 6 40 L 6 31.46875 Z"></path>
+                </svg>
+              </div>
+              <h3 class="text-xl font-semibold text-center mb-2">Desain Kustom</h3>
+              <p class="text-gray-600 text-center">Setiap miniatur dibuat sesuai dengan keinginan unik Anda, memastikan hasil yang benar-benar personal.</p>
+            </div>
+          </div>
+
+          <!-- Kelebihan 2 -->
+          <div class="bg-yellow-100 rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105">
+            <div class="p-6">
+              <div class="w-16 h-16 flex items-center justify-center mb-4 mx-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+                  <path d="M 7 2 C 4.199219 2 2 4.199219 2 7 L 2 34 C 2 36.800781 4.199219 39 7 39 L 34 39 C 36.800781 39 39 36.800781 39 34 L 39 9.8125 L 37 12 L 37 34 C 37 35.699219 35.699219 37 34 37 L 7 37 C 5.300781 37 4 35.699219 4 34 L 4 7 C 4 5.300781 5.300781 4 7 4 L 33.40625 4 L 35.09375 2.09375 C 34.695313 2.09375 34.398438 2 34 2 Z M 36.25 5.34375 L 18.9375 24.59375 L 10.65625 17.25 L 9.34375 18.75 L 18.34375 26.75 L 19.09375 27.40625 L 19.75 26.65625 L 37.75 6.65625 Z M 41 11 L 41 13 L 43 13 C 44.699219 13 46 14.300781 46 16 L 46 43 C 46 44.699219 44.699219 46 43 46 L 16 46 C 14.300781 46 13 44.699219 13 43 L 13 41 L 11 41 L 11 43 C 11 45.800781 13.199219 48 16 48 L 43 48 C 45.800781 48 48 45.800781 48 43 L 48 16 C 48 13.199219 45.800781 11 43 11 Z"></path>
+                </svg>
+              </div>
+              <h3 class="text-xl font-semibold text-center mb-2">Kualitas Premium</h3>
+              <p class="text-gray-600 text-center">Kami hanya menggunakan bahan terbaik dan teknik pengerjaan yang teliti untuk hasil yang sempurna.</p>
+            </div>
+          </div>
+
+          <!-- Kelebihan 3 -->
+          <div class="bg-yellow-100 rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105">
+            <div class="p-6">
+              <div class="w-16 h-16 flex items-center justify-center mb-4 mx-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+                  <path d="M 24.875 3.3125 C 20.183594 3.417969 17.214844 5.316406 15.9375 8.25 C 14.722656 11.042969 14.976563 14.5625 15.84375 18.21875 C 15.378906 18.765625 14.996094 19.535156 15.09375 20.6875 L 15.09375 20.75 C 15.261719 21.96875 15.628906 22.828125 16.09375 23.4375 C 16.316406 23.726563 16.632813 23.742188 16.90625 23.90625 C 17.148438 25.269531 17.691406 26.570313 18.3125 27.59375 C 18.34375 27.742188 18.40625 27.878906 18.5 28 C 18.5 28 18.601563 28.128906 18.625 28.15625 C 18.9375 28.625 19.09375 29.277344 19.09375 30 C 19.09375 30.769531 19.082031 31.484375 19 32.28125 C 18.699219 33.039063 17.949219 33.644531 16.75 34.25 C 15.496094 34.882813 13.855469 35.464844 12.1875 36.1875 C 10.519531 36.910156 8.828125 37.777344 7.46875 39.15625 C 6.109375 40.535156 5.136719 42.445313 5 44.9375 L 4.9375 46 L 45.0625 46 L 45 44.9375 C 44.863281 42.445313 43.914063 40.539063 42.5625 39.15625 C 41.210938 37.773438 39.511719 36.910156 37.84375 36.1875 C 36.175781 35.464844 34.523438 34.886719 33.25 34.25 C 32.015625 33.632813 31.242188 33.003906 30.90625 32.21875 C 30.828125 31.273438 30.8125 30.527344 30.8125 29.6875 C 30.8125 29.152344 30.996094 28.667969 31.3125 28.1875 C 31.320313 28.175781 31.335938 28.167969 31.34375 28.15625 C 31.347656 28.148438 31.40625 28.09375 31.40625 28.09375 C 31.53125 27.964844 31.617188 27.800781 31.65625 27.625 C 32.261719 26.585938 32.765625 25.265625 33 23.9375 C 33.3125 23.773438 33.664063 23.753906 33.90625 23.4375 C 34.386719 22.808594 34.667969 21.914063 34.78125 20.6875 C 34.871094 19.628906 34.566406 18.859375 34.09375 18.28125 C 34.613281 16.679688 35.230469 14.117188 35.03125 11.5 C 34.921875 10.0625 34.542969 8.628906 33.6875 7.4375 C 32.914063 6.359375 31.664063 5.621094 30.09375 5.28125 C 29.035156 3.867188 27.113281 3.3125 24.90625 3.3125 Z M 24.90625 5.3125 C 24.917969 5.3125 24.925781 5.3125 24.9375 5.3125 C 26.933594 5.320313 28.210938 5.882813 28.625 6.59375 L 28.875 7.03125 L 29.375 7.09375 C 30.75 7.285156 31.503906 7.816406 32.0625 8.59375 C 32.621094 9.371094 32.941406 10.457031 33.03125 11.65625 C 33.214844 14.058594 32.519531 16.875 32.0625 18.15625 L 31.75 19 L 32.53125 19.40625 C 32.523438 19.433594 32.851563 19.765625 32.8125 20.5 C 32.8125 20.515625 32.8125 20.515625 32.8125 20.53125 C 32.71875 21.472656 32.476563 22.003906 32.3125 22.21875 C 32.144531 22.4375 32.058594 22.40625 32.09375 22.40625 L 31.21875 22.40625 L 31.09375 23.28125 C 30.921875 24.578125 30.261719 26.210938 29.6875 27.03125 L 29.65625 27.03125 C 29.597656 27.117188 29.554688 27.21875 29.5 27.3125 C 29.238281 27.617188 28.84375 28.019531 28.28125 28.5 C 27.347656 29.296875 26.109375 30 25 30 C 23.898438 30 22.648438 29.261719 21.6875 28.4375 C 20.855469 27.722656 20.359375 27.109375 20.21875 26.9375 C 20.214844 26.929688 20.222656 26.914063 20.21875 26.90625 C 19.628906 26.054688 18.953125 24.5625 18.78125 23.28125 L 18.6875 22.40625 L 17.875 22.40625 C 17.839844 22.390625 17.746094 22.339844 17.65625 22.21875 C 17.480469 21.988281 17.230469 21.449219 17.09375 20.53125 C 17.09375 20.511719 17.09375 20.519531 17.09375 20.5 C 17.089844 20.484375 17.097656 20.484375 17.09375 20.46875 C 17.078125 19.710938 17.546875 19.289063 17.46875 19.34375 L 18.03125 18.9375 L 17.875 18.25 C 16.953125 14.605469 16.808594 11.304688 17.78125 9.0625 C 18.753906 6.828125 20.722656 5.414063 24.90625 5.3125 Z M 21.09375 30.53125 C 22.148438 31.308594 23.46875 32 25 32 C 26.5 32 27.785156 31.34375 28.8125 30.59375 C 28.816406 31.203125 28.835938 31.828125 28.90625 32.59375 L 28.90625 32.71875 L 28.96875 32.84375 C 29.144531 33.304688 29.394531 33.695313 29.6875 34.0625 C 29.675781 34.101563 29.664063 34.144531 29.65625 34.1875 C 29.65625 34.1875 29.417969 34.84375 28.71875 35.5625 C 28.019531 36.28125 26.933594 37 25 37 C 23.074219 37 21.949219 36.25 21.21875 35.5 C 20.488281 34.75 20.25 34.0625 20.25 34.0625 C 20.539063 33.6875 20.777344 33.285156 20.9375 32.8125 L 21 32.625 C 21.085938 31.867188 21.09375 31.183594 21.09375 30.53125 Z M 31.25 35.4375 C 31.601563 35.664063 31.964844 35.875 32.34375 36.0625 C 33.804688 36.789063 35.460938 37.351563 37.03125 38.03125 C 38.601563 38.710938 40.066406 39.480469 41.125 40.5625 C 41.96875 41.425781 42.476563 42.574219 42.75 44 L 7.25 44 C 7.523438 42.574219 8.027344 41.425781 8.875 40.5625 C 9.9375 39.480469 11.429688 38.710938 13 38.03125 C 14.570313 37.351563 16.210938 36.792969 17.65625 36.0625 C 18.015625 35.878906 18.382813 35.6875 18.71875 35.46875 C 18.941406 35.871094 19.285156 36.394531 19.78125 36.90625 C 20.800781 37.957031 22.527344 39 25 39 C 27.464844 39 29.15625 37.96875 30.15625 36.9375 C 30.703125 36.375 31.035156 35.851563 31.25 35.4375 Z"></path>
+                </svg>
+              </div>
+              <h3 class="text-xl font-semibold text-center mb-2">Tim Ahli</h3>
+              <p class="text-gray-600 text-center">Diproduksi oleh tim seniman dan pengrajin berpengalaman yang passionate dalam miniatur.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="py-12 px-4 md:px-8 bg-gray-100">
+      <div class="max-w-6xl mx-auto">
+          <h2 class="londrina-solid-black text-4xl md:text-5xl font-bold text-center mb-12 bg-gradient-to-r from-gray-700 to-yellow-500 bg-clip-text text-transparent">Portofolio Kami</h2>
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+              <!-- Portofolio 1 -->
+              <div class="bg-orange rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105">
+                <a href="/images/miniatur5.jpeg">
+                  <img src="/images/miniatur5.jpeg" alt="Project 1" class="w-full h-48 object-cover">
+                </a>  
+                  <div class="p-6">
+                      <h3 class="text-xl text-gray-100 font-semibold mb-2">Miniatur Tabung</h3>
+                      <p class="text-gray-100">Miniatur tabung modern dengan desain sederhana dan elegan, dibuat dengan presisi tinggi.</p>
+                  </div>
+              </div>
+  
+              <!-- Portofolio 2 -->
+              <div class="bg-orange rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105">
+                <a href="/images/miniatur2.jpeg">
+                  <img src="/images/miniatur2.jpeg" alt="Project 2" class="w-full h-48 object-cover">
+                </a>  
+                  <div class="p-6">
+                      <h3 class="text-xl text-gray-100 font-semibold mb-2">Miniatur Perumahan</h3>
+                      <p class="text-gray-100">Miniatur perumahan realistis dengan tata letak rapi dan detail arsitektural yang harmonis.</p>
+                  </div>
+              </div>
+  
+              <!-- Portofolio 3 -->
+              <div class="bg-orange rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105">
+                <a href="/images/miniatur6.jpeg">
+                  <img src="/images/miniatur6.jpeg" alt="Project 3" class="w-full h-48 object-cover">
+                </a>  
+                  <div class="p-6">
+                      <h3 class="text-xl text-gray-100 font-semibold mb-2">Miniatur Rumah 2 Lantai</h3>
+                      <p class="text-gray-100">Miniatur rumah dua lantai modern dengan detail yang menakjubkan.</p>
+                  </div>
+              </div>
+  
+              <!-- Portofolio 4 -->
+              <div class="bg-orange rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105">
+                <a href="/images/miniatur7.jpeg">
+                  <img src="/images/miniatur7.jpeg" alt="Project 4" class="w-full h-48 object-cover">
+                </a>  
+                  <div class="p-6">
+                      <h3 class="text-xl text-gray-100 font-semibold mb-2">Miniatur Rumah</h3>
+                      <p class="text-gray-100">Miniatur rumah dengan desain modern dan personal yang dipesan khusus oleh pelanggan.</p>
+                  </div>
+              </div>
+  
+              <!-- Portofolio 5 -->
+              <div class="bg-orange rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105">
+                <a href="/images/miniatur14.jpeg">
+                  <img src="/images/miniatur14.jpeg" alt="Project 5" class="w-full h-48 object-cover">
+                </a>  
+                  <div class="p-6">
+                      <h3 class="text-xl text-gray-100 font-semibold mb-2">Miniatur Galeri Seni Rupa</h3>
+                      <p class="text-gray-100">Miniatur galeri seni dengan estetika tinggi, memadukan seni dan arsitektur.</p>
+                  </div>
+              </div>
+  
+              <!-- Portofolio 6 -->
+              <div class="bg-orange rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105">
+                <a href="/images/miniatur15.jpeg">
+                  <img src="/images/miniatur15.jpeg" alt="Project 6" class="w-full h-48 object-cover">
+                </a>  
+                  <div class="p-6">
+                      <h3 class="text-xl text-gray-100 font-semibold mb-2">Miniatur Furniture</h3>
+                      <p class="text-gray-100">Miniatur furniture klasik dan modern, dibuat dengan detail ukiran dan bentuk yang elegan.</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="flex justify-center mt-6">
+            <a href="/portfolio.html" class="inline-block px-8 py-4 text-lg font-semibold bg-orange hover:bg-black text-white rounded-lg shadow-lg transition-transform transform hover:scale-105">Lihat Semua Portofolio</a>
+          </div>
+      </div>
+    </section>
+
+    <!-- Marquee Text -->
+    <section class="py-6 bg-black text-white text-4xl londrina-solid-regular shadow-[0px_4.0px_20px_rgba(0,0,0,0.38)]">
+      <marquee behavior="scroll" direction="left" className="">
+        <p className="">Jasa Pembuatan Miniatur Terbaik Yang Menghadirkan Detail Presisi & Kualitas Unggulan</p>
+      </marquee>
+    </section>
+    
+    <!-- Cara Pesan -->
+    <section class="py-16">
+      <div class="container mx-auto px-6">
+        <h2 class="londrina-solid-black text-4xl font-bol5 text-center mb-12 bg-gradient-to-r from-gray-100 to-gray-200 bg-clip-text text-transparent">
+          Pilihan Cara Pesan!
+        </h2>
+        <div class="flex flex-col md:flex-row justify-center items-center gap-8 text-white">
+          <div class="text-center md:w-1/2">
+            <div
+              class="bg-gray-800 text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4"
+            >
+              1
+            </div>
+            <h3 class="text-xl font-semibold mb-2">Pesan di tempat</h3>
+            <p class="text-gray-100">
+              Datang ke lokasi kami di Jl. Baitul rohim II no.8 Beji timur - Depok 16422
+            </p>
+          </div>
+          <div class="text-center md:w-1/2">
+            <div
+              class="bg-gray-800 text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4"
+            >
+              2
+            </div>
+            <h3 class="text-xl font-semibold mb-2">Pesan Melalui Whatsapp</h3>
+            <p class="text-gray-100">
+              Hubungi kami melalui WhatsApp dan sampaikan ide atau konsep miniatur yang ingin Anda buat.
+            </p>
+          </div>
+        </div>
+        <div class="flex justify-center mt-8">
+          <a href="/cara-pesan.html" class="inline-block px-8 py-4 text-lg font-semibold bg-black hover:bg-gray-100 text-white hover:text-black rounded-lg shadow-lg transition-transform transform hover:scale-105">Cara Pesan</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimoni -->
+    <section id="apa-kata-mereka" class="py-16">
+      <div class="container mx-auto px-4">
+          <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">Apa Kata Mereka</h2>
+          <div class="relative">
+
+              <!-- Carousel Wrapper -->
+              <div id="carousel" class="overflow-hidden">
+                  <div class="carousel-slide">
+                      <!-- Slide 1 -->
+                      <div class="flex-none w-full md:w-1/2 lg:w-1/3 px-4">
+                          <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                              <div class="star-rating">
+                                <span class="star active">★</span>
+                                <span class="star active">★</span>
+                                <span class="star active">★</span>
+                                <span class="star active">★</span>
+                                <span class="star active">★</span>
+                              </div>
+                              <p class="text-gray-600 mb-4">“Produk yang sangat bagus! Layanan pelanggan yang memuaskan dan pengiriman tepat waktu.”</p>
+                              <p class="font-semibold text-gray-800">Andi Susanto</p>
+                              <p class="text-gray-500">Pelanggan Setia</p>
+                          </div>
+                      </div>
+                      <!-- Slide 2 -->
+                      <div class="flex-none w-full md:w-1/2 lg:w-1/3 px-4">
+                          <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                            <div class="star-rating">
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                            </div>
+                              <p class="text-gray-600 mb-4">“Kualitas produk sangat baik dan harga terjangkau. Saya pasti akan membeli lagi!”</p>
+                              <p class="font-semibold text-gray-800">Rina Wulandari</p>
+                              <p class="text-gray-500">Pelanggan Bahagia</p>
+                          </div>
+                      </div>
+                      <!-- Slide 3 -->
+                      <div class="flex-none w-full md:w-1/2 lg:w-1/3 px-4">
+                          <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                            <div class="star-rating">
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                              <span class="star">★</span>
+                            </div>
+                              <p class="text-gray-600 mb-4">“Pengalaman berbelanja yang luar biasa. Website yang mudah digunakan dan produk sesuai deskripsi.”</p>
+                              <p class="font-semibold text-gray-800">Budi</p>
+                              <p class="text-gray-500">Pelanggan Puas</p>
+                          </div>
+                      </div>
+                      <!-- Slide 4 -->
+                      <div class="flex-none w-full md:w-1/2 lg:w-1/3 px-4">
+                          <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                            <div class="star-rating">
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                            </div>
+                              <p class="text-gray-600 mb-4">“Layanan yang sangat baik dan produk berkualitas tinggi. Sangat direkomendasikan!”</p>
+                              <p class="font-semibold text-gray-800">Siti Aisyah</p>
+                              <p class="text-gray-500">Pelanggan Bahagia</p>
+                          </div>
+                      </div>
+                      <!-- Slide 5 -->
+                      <div class="flex-none w-full md:w-1/2 lg:w-1/3 px-4">
+                          <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                            <div class="star-rating">
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                            </div>
+                              <p class="text-gray-600 mb-4">“Sangat puas dengan produk dan layanan yang diberikan. Terima kasih!”</p>
+                              <p class="font-semibold text-gray-800">Joko</p>
+                              <p class="text-gray-500">Pelanggan Setia</p>
+                          </div>
+                      </div>
+                      <!-- Slide 6 -->
+                      <div class="flex-none w-full md:w-1/2 lg:w-1/3 px-4">
+                          <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                            <div class="star-rating">
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                            </div>
+                              <p class="text-gray-600 mb-4">“Kualitas produk sangat memuaskan dan pengiriman tepat waktu. Recomended!”</p>
+                              <p class="font-semibold text-gray-800">Dewi Lestari</p>
+                              <p class="text-gray-500">Pelanggan Bahagia</p>
+                          </div>
+                      </div>
+                      <!-- Slide 7 -->
+                      <div class="flex-none w-full md:w-1/2 lg:w-1/3 px-4">
+                          <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                            <div class="star-rating">
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                              <span class="star">★</span>
+                            </div>
+                              <p class="text-gray-600 mb-4">“Produk yang bagus dan pelayanan yang ramah. Pasti akan kembali berbelanja di sini!”</p>
+                              <p class="font-semibold text-gray-800">Hendrikus</p>
+                              <p class="text-gray-500">Pelanggan Puas</p>
+                          </div>
+                      </div>
+                      <!-- Slide 8 -->
+                      <div class="flex-none w-full md:w-1/2 lg:w-1/3 px-4">
+                          <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                            <div class="star-rating">
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                            </div>
+                              <p class="text-gray-600 mb-4">“Sangat senang dengan produk yang dibeli. Kualitas dan layanan sangat baik!”</p>
+                              <p class="font-semibold text-gray-800">Fitria</p>
+                              <p class="text-gray-500">Pelanggan Bahagia</p>
+                          </div>
+                      </div>
+                      <!-- Slide 9 -->
+                      <div class="flex-none w-full md:w-1/2 lg:w-1/3 px-4">
+                          <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                            <div class="star-rating">
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                            </div>
+                              <p class="text-gray-600 mb-4">“Pengalaman berbelanja yang sangat menyenangkan. Produk sesuai dengan deskripsi!”</p>
+                              <p class="font-semibold text-gray-800">Ayu</p>
+                              <p class="text-gray-500">Pelanggan Setia</p>
+                          </div>
+                      </div>
+                      <!-- Slide 10 -->
+                      <div class="flex-none w-full md:w-1/2 lg:w-1/3 px-4">
+                          <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                            <div class="star-rating">
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                              <span class="star active">★</span>
+                            </div>
+                              <p class="text-gray-600 mb-4">“Layanan yang sangat memuaskan dan produk berkualitas tinggi. Saya pasti akan merekomendasikan!”</p>
+                              <p class="font-semibold text-gray-800">Rudi Hartono</p>
+                              <p class="text-gray-500">Pelanggan Bahagia</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Navigation Buttons -->
+              <button id="prev" class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full shadow-lg hover:bg-gray-700 focus:outline-none">
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+              </button>
+              <button id="next" class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full shadow-lg hover:bg-gray-700 focus:outline-none">
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+              </button>
+          </div>
+      </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="kontak" class="py-16 bg-gray-100 text-white">
+      <div class="container mx-auto px-6">
+        <h2 class="londrina-solid-black text-black text-4xl font-bol5 text-center mb-12">Hubungi Kami</h2>
+        <div class="max-w-lg mx-auto">
+          <form id="contactForm">
+            <div class="mb-4 text-black">
+              <label for="nama" class="block mb-2">Nama</label>
+              <input
+                type="text"
+                id="nama"
+                name="nama"
+                placeholder="Masukkan Nama Anda..."
+                class="w-full px-3 py-2 text-gray-700 rounded-md"
+                required
+              />
+            </div>
+            <div class="mb-4 text-black">
+              <label for="pesan" class="block mb-2">Pesan</label>
+              <textarea
+                id="pesan"
+                name="pesan"
+                placeholder="Masukkan Pesan Anda..."
+                rows="4"
+                class="w-full px-3 py-2 text-gray-700 rounded-md"
+                required
+              ></textarea>
+            </div>
+            <div class="flex justify-center">
+              <button
+                type="submit"
+                class="inline-block px-8 py-4 text-lg font-semibold bg-orange hover:bg-black text-white rounded-lg shadow-lg transition-transform transform hover:scale-105"
+                >
+                Kirim Pesan
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gradient-to-r from-gray-900 to-gray-700 text-white py-10">
+      <div class="max-w-6xl mx-auto px-4">
+          <div class="flex flex-col md:flex-row justify-between">
+
+              <!-- Left Side: Logo, Name, and Address -->
+              <div class="flex flex-col items-center md:items-start mb-8 md:mb-0">
+                  <img src="/images/logo.jpg" alt="Logo" class="w-16 h-16 rounded-lg mb-4">
+                  <h2 class="text-2xl font-bold mb-2">Maket Miniatur Syennzar</h2>
+                  <p class="text-sm text-center md:text-start text-gray-400">Jl. Baitul Rohim II No.8, Beji Timur, Kecamatan Beji, Kota Depok, Jawa Barat 16422</p>
+              </div>
+
+              <!-- Right Side: Quick Links -->
+              <div class="flex flex-col items-center md:items-end">
+                  <h3 class="text-lg font-semibold mb-4">Link Cepat</h3>
+                  <ul class="space-y-2 text-sm text-gray-400">
+                      <li><a href="/index.html" class="hover:text-yellow-500 transition">Beranda</a></li>
+                      <li><a href="/portfolio.html" class="hover:text-yellow-500 transition">Portofolio</a></li>
+                      <li><a href="/tentang-kami.html" class="hover:text-yellow-500 transition">Tentang Kami</a></li>
+                      <li><a href="/cara-pesan.html" class="hover:text-yellow-500 transition">Cara Pesan</a></li>
+                      <li><a href="/kontak" class="hover:text-yellow-500 transition">Kontak Kami</a></li>
+                  </ul>
+              </div>
+          </div>
+
+          <!-- Bottom Part for Mobile: Address -->
+          <div class="mt-8 text-center text-sm text-gray-500 md:hidden">
+              <p>&copy; 2024 Maket Miniatur Syennzar. All rights reserved.</p>
+          </div>
+      </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a
+      href="https://wa.me/6281282049540?text=Halo,%20saya%20ingin%20bertanya%20mengenai%20jasa%20pembuatan%20miniatur."
+      target="_blank"
+      class="fixed bottom-6 right-6 bg-green-500 text-white rounded-full p-4 hover:bg-green-600 transition-all duration-300 ease-in-out shadow-lg hover:shadow-xl transform hover:scale-110 animate-bounce-slow z-50 group"
+      id="whatsappButton"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-8 w-8"
+        fill="currentColor"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"
+        />
+      </svg>
+    </a>
+
+    <script src="script.js"></script>
+  </body>
+</html>

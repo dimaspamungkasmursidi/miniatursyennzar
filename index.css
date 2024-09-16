@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes rotate360 {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+.rotate-360 {
+    animation: rotate360 1s linear;
+}
+
+.londrina-solid-thin {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .londrina-solid-light {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .londrina-solid-regular {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .londrina-solid-black {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+
+  .carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.star-rating {
+    font-size: 2rem; /* Ukuran bintang */
+    color: #FFD700; /* Warna bintang aktif */
+}
+
+.star-rating .star {
+    display: inline-block;
+    color: #e4e5e9; /* Warna bintang tidak aktif */
+}
+
+.star-rating .star.active {
+    color: #FFD700; /* Warna bintang aktif */
+}
+
+
+.contact-section {
+    padding: 3rem 0;
+}
+.contact-info {
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+.map {
+    height: 400px;
+    width: 100%;
+}
+  
