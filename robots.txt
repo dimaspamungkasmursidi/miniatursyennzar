@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block sensitive areas from being indexed (if any)
+Disallow: /wp-admin/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://www.miniatursyennzar.my.id/sitemap.xml
